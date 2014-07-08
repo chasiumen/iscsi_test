@@ -39,6 +39,6 @@ echo "check if you have 80GB of free space"
 #----------------------RESCUE END--------------------
 
 #Create LV in the volume group
-#lvcreate --size 64G --name iscsi1 /dev/VolGroup
+lvcreate --size 64G --name iscsi1 /dev/VolGroup
 
 
